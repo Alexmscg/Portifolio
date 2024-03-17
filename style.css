@@ -112,6 +112,10 @@ nav {
         display: flex;
         flex-direction: column;
     }
+    .projetos{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
