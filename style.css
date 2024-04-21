@@ -92,31 +92,7 @@ nav {
 
 
 
-@media screen and (max-width: 425px){
-    .nav-links{
-        display: none;
-    }
-    .box-img-header{
-        width: 100%;
-    }
 
-     .box-img-header h1{
-       text-align: center;
-
-    }
-    .first-section h1, p {
-      font-size: 23px;
-      
-    }
-    .second-section ul{
-        display: flex;
-        flex-direction: column;
-    }
-    .projetos{
-        display: flex;
-        flex-direction: column;
-    }
-}
 
 
 
@@ -293,5 +269,74 @@ footer > div{
 .mobile-menu{
     display: none;
 }
+@media screen and (max-width: 1024px){
+    .second-section{
+      
+        width: 100%;
+    }
+}
 
+@media screen and (max-width: 425px){
+
+    .nav-links{
+        display: none;
+    }
+    .box-img-header{
+        width: 100%;
+    }
+
+     .box-img-header h1{
+       text-align: center;
+
+    }
+    .first-section h1, p {
+      font-size: 23px;
+      
+    }
+    .second-section ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .projetos{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px){
+    section {
+        padding: 0.1rem;
+    }
  
+  
+    .first-titulo{
+       
+        width: 100%;
+
+       p{
+        text-align: center;
+       }
+
+       h1{
+        text-align: center;
+       }
+
+     
+    
+    }
+    .box-img-main{
+        
+        width: 100%;
+        
+
+    }
+    .third-section{
+       
+        width: 100%;
+    }
+    .third{
+        
+        width: 90%;
+    }
+
+}
