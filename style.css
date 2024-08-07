@@ -83,19 +83,6 @@ nav {
 
 
 
-@media screen and (max-width: 768px){
-    .btn-action{
-        display: none;
-    }
-
-}
-
-
-
-
-
-
-
 main {
     display: flex;
     flex-direction: column;
@@ -257,6 +244,14 @@ footer > div{
 }
 
 @media screen and (max-width: 768px){
+    .btn-action{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 768px){
     .btn-whatsapp img{
         max-width: 54px;
     }
@@ -305,7 +300,7 @@ footer > div{
 
 @media screen and (max-width: 375px){
     section {
-        padding: 0.1rem;
+        padding: 2rem;
     }
  
   
