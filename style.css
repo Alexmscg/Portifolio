@@ -91,6 +91,7 @@ main {
 
 section {
     padding: 4rem;
+    
 }
 
 .first-section {
@@ -134,6 +135,9 @@ strong {
 .box-img-main {
     max-width: 400px;
     padding: 1rem;
+
+    
+    
 }
 
 .img-profile {
@@ -179,7 +183,7 @@ strong {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    flex-wrap: wrap;
+   
   
     
 }
@@ -273,6 +277,15 @@ footer > div{
 
 @media screen and (max-width: 425px){
 
+
+   
+
+    .first-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
     .nav-links{
         display: none;
     }
